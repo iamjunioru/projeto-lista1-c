@@ -9,17 +9,11 @@ int main()
 setlocale(LC_ALL, "Portuguese");
 float metros, decimetros, centimetros, milimetros;
 
-//printf(" ######  ######  ### \n");          
-//printf(" #     # #     #  #  \n");         
-//printf(" #     # #     #  #  \n");        
-//printf(" ######  #     #  #  \n");      
-//printf(" #       #     #  #  \n");       
-//printf(" #       ######  ### \n");
 
 printf ("*------------------------------------------------------*\n");    
 printf ("|                    POO - LISTA 1                     |\n");
 printf ("*------------------------------------------------------*\n");
-printf("1. Fazer um programa que pergunta um valor em metros \ne imprime o correspondente em:\ndecímetros, centímetros e milímetros.\n");
+printf("1. Fazer um programa que pergunta um valor em metros \ne imprime o correspondente em:\ndecÃ­metros, centÃ­metros e milÃ­metros.\n");
 printf ("*------------------------------------------------------*\n");
 printf("- Informe o valor em metros:\n");
 scanf("%f",&metros);
@@ -50,11 +44,11 @@ system("cls");
 system("color A");
 
 printf("Resposta:");
-printf("\nO valor em decimetros é:\n%f\n", decimetros);
+printf("\nO valor em decimetros Ã©:\n%f\n", decimetros);
 
-printf("O valor em centimetros é:\n%f\n", centimetros);
+printf("O valor em centimetros Ã©:\n%f\n", centimetros);
 
-printf("O valor em milimetros é:\n%f", milimetros);
+printf("O valor em milimetros Ã©:\n%f", milimetros);
 
 }
 
