@@ -8,20 +8,13 @@ int main()
 {
 setlocale(LC_ALL, "Portuguese");
 int a1, a2, a3, n, s, a, soma, opcao;
-
-//printf(" ######  ######  ### \n");          
-//printf(" #     # #     #  #  \n");         
-//printf(" #     # #     #  #  \n");        
-//printf(" ######  #     #  #  \n");      
-//printf(" #       #     #  #  \n");       
-//printf(" #       ######  ### \n");
     
 printf ("*------------------------------------------------------*\n");    
 printf ("|                    POO - LISTA 1                     |\n");
 printf ("*------------------------------------------------------*\n");
-printf("2. Ler um número inteiro e imprimir a soma do sucessor\nde seu triplo com o antecessor de seu dobro.\n");
+printf("2. Ler um nÃºmero inteiro e imprimir a soma do sucessor\nde seu triplo com o antecessor de seu dobro.\n");
 printf ("*------------------------------------------------------*\n");
-printf("- Digite algum número:\n");
+printf("- Digite algum nÃºmero:\n");
 scanf("%i", &n);
 system("cls");
 
@@ -32,7 +25,7 @@ soma=s+a;
 
 system("color a");
 printf("========================================\n");
-printf("O sucessor do triplo do numero %i é %i\nJá o antecessor do seu dobro é %i.\n", n, s, a);
+printf("O sucessor do triplo do numero %i Ã© %i\nJÃ¡ o antecessor do seu dobro Ã© %i.\n", n, s, a);
 printf("========================================\n");
 // sistema de load
 for (int i = 0; i < 8; i++){
@@ -49,14 +42,14 @@ for (int i = 0; i < 8; i++){
 }
 system("cls");
 system("color f");
-printf("---------------------------------\nA resposta está correta?\nDigite 1 para SIM ou 2 para NÃO.\n");
+printf("---------------------------------\nA resposta estÃ¡ correta?\nDigite 1 para SIM ou 2 para NÃƒO.\n");
 scanf("%d",  &opcao);
 system("cls");
 system("color a");
 if (opcao == 1)
-    printf("Você disse %i(SIM).\n\nResumindo...\n\nO sucessor do triplo do numero %i é %i\nJá o antecessor do seu dobro é %i.\n===========================================\nA soma do sucessor com o antecessor é: %i", opcao, n, s, a, soma);  
+    printf("VocÃª disse %i(SIM).\n\nResumindo...\n\nO sucessor do triplo do numero %i Ã© %i\nJÃ¡ o antecessor do seu dobro Ã© %i.\n===========================================\nA soma do sucessor com o antecessor Ã©: %i", opcao, n, s, a, soma);  
   else if (opcao > 2)
-      printf("Sua resposta é %d(sim)", opcao);
+      printf("Sua resposta Ã© %d(sim)", opcao);
     else
       for (int i = 0; i < 10; i++){
     printf("Por favor, aguarde. \n %o ", i);
@@ -68,7 +61,7 @@ if (opcao == 1)
     printf("\r");
     system("color 04");
      for (int j = 0; j < 3; j++) {
-    printf("< REINICIE O PROGRAMA E REFAÇA > ");
+    printf("< REINICIE O PROGRAMA E REFAÃ‡A > ");
     }
     printf("\r");
     return 0;
