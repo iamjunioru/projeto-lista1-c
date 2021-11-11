@@ -19,14 +19,6 @@
 // Aluno: R. Junior
 // Professor: Manoel Marisergio
 // Disciplina: POO -Programação Orientada a Objetos
-    
-printf(" ######  ######  ### \n");          
-printf(" #     # #     #  #  \n");         
-printf(" #     # #     #  #  \n");        
-printf(" ######  #     #  #  \n");      
-printf(" #       #     #  #  \n");       
-printf(" #       ######  ### \n");
-
 
 ```
 
