@@ -13,7 +13,7 @@ int i, n, o;
 printf ("*------------------------------------------------------*\n");    
 printf ("|                    POO - LISTA 1                     |\n");
 printf ("*------------------------------------------------------*\n");
-printf("4. Faça um programa que leia um número inteiro positivo\npar N e imprima todos os números pares de 0 até N em ordem\ncrescente e todos os números ímpares em ordem decrescente.\n");
+printf("4. FaÃ§a um programa que leia um nÃºmero inteiro positivo\npar N e imprima todos os nÃºmeros pares de 0 atÃ© N em ordem\ncrescente e todos os nÃºmeros Ã­mpares em ordem decrescente.\n");
 printf ("*-----------------------------------------------------------*\n");
 printf("- Insira um numero inteiro[CRESCENTE]:\n");
 scanf("%d", &i);
