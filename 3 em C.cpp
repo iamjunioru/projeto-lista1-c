@@ -10,11 +10,10 @@ int main()
 setlocale(LC_ALL, "Portuguese");
 int n, maior, count;
 
-
 printf ("*------------------------------------------------------*\n");    
 printf ("|                    POO - LISTA 1                     |\n");
 printf ("*------------------------------------------------------*\n");
-printf("3. Escreva um algoritmo que leia certa quantidade de números e\nimprima o maior deles e quantas vezes o maior número foi lido.\nA quantidade de números a serem lidos deve ser fornecida pelo usuário.\n");
+printf("3. Escreva um algoritmo que leia certa quantidade de nÃºmeros e\nimprima o maior deles e quantas vezes o maior nÃºmero foi lido.\nA quantidade de nÃºmeros a serem lidos deve ser fornecida pelo usuÃ¡rio.\n");
 printf ("*----------------------------------------------------------------------*\n");
 printf("(TECLE 0 PARA TER O RESULTADO)\n");
 system("color a");
@@ -30,7 +29,7 @@ system("color 4");
 system("color 5");
 system("color 6");
 system("color f");
-printf("- Digite algum número:\n");
+printf("- Digite algum nÃºmero:\n");
 scanf("%i", &n);
 
 
@@ -39,7 +38,7 @@ count = 1;
 
 while(n != 0)
 {
-printf("digite um número:\n");
+printf("digite um nÃºmero:\n");
 scanf("%i", &n);
 
 if(maior <  n){
@@ -52,7 +51,7 @@ count=count+1; //contador de vezes
 system("cls");
 system("color a");
 printf ("---------------------------------\n\n");
-printf("O maior número escrito foi %i.\nQuantas vezes foi escrito? %i\n", maior, count);
+printf("O maior nÃºmero escrito foi %i.\nQuantas vezes foi escrito? %i\n", maior, count);
        
 return 0;
 }
